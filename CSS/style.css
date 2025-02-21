@@ -1,0 +1,97 @@
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Limita la altura máxima de la imagen */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsionar */
+}
+
+nav {
+    background-color: lightgrey;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.menu a:hover {
+    background-color: grey;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-img {
+    max-width: 80%; /* Ajusta el ancho máximo de la imagen */
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto; /* Centra la imagen */
+}
+
+article {
+    background-color: bisque;
+    border: 2px solid blue;
+    border-radius: 15px 5px 15px 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px wheat;
+}
+
+/* Estilos para la sección "Acerca de..." */
+.about {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.about-img {
+    width: 150px; /* Tamaño de la imagen */
+    height: 150px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsionar */
+}
+
+footer {
+    margin-top: 20px;
+}
